@@ -1,11 +1,9 @@
-import { useState } from "react";
-import "./style.css";
-import RouterApp from "./routes";
+import RoutesApp from './routes';
 
 function App() {
   return (
-    <div className="app">
-      <RouterApp />
+    <div className="App">
+      <RoutesApp/>
     </div>
   );
 }
